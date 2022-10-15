@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transcore.Services.Membership", "Transcore.Services.Membership.csproj", "{97C1BD68-B857-464A-86D1-4E30E374DC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transcore.Services.Membership.Provider", "..\Transcore.Services.Membership.Provider\Transcore.Services.Membership.Provider.csproj", "{F707DDAD-955D-4DF4-B6B0-51E417D93971}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97C1BD68-B857-464A-86D1-4E30E374DC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C1BD68-B857-464A-86D1-4E30E374DC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C1BD68-B857-464A-86D1-4E30E374DC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C1BD68-B857-464A-86D1-4E30E374DC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F707DDAD-955D-4DF4-B6B0-51E417D93971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F707DDAD-955D-4DF4-B6B0-51E417D93971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F707DDAD-955D-4DF4-B6B0-51E417D93971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F707DDAD-955D-4DF4-B6B0-51E417D93971}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE528E54-4724-43E7-ABD4-06A2F5F88739}
+	EndGlobalSection
+EndGlobal
