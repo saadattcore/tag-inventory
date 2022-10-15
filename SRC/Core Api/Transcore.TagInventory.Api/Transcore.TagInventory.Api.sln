@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transcore.TagInventory.Api", "Transcore.TagInventory.Api\Transcore.TagInventory.Api.csproj", "{CE7E9EEA-D415-476D-8C1F-85159ECE3DF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transcore.TagInventory.Entity", "Transcore.TagInventory.TagInventory\Transcore.TagInventory.Entity.csproj", "{297A735F-EDFA-4D21-AA6B-412E7906FFB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transcore.TagInventory.DataAccess", "Transcore.TagInventory.DataAccess\Transcore.TagInventory.DataAccess.csproj", "{0D9E40E3-79EB-46F6-BC8D-BD6471B73DDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transcore.TagInventory.Common", "Transcore.TagInventory.Common\Transcore.TagInventory.Common.csproj", "{F77C54B3-133E-407A-8558-9F36C261384D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transcore.TagInventory.BusinessLogic", "Transcore.TagInventory.BusinessLogic\Transcore.TagInventory.BusinessLogic.csproj", "{2BCFE24A-FEF5-4415-9D4D-C09FB10C9EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transcore.TagInventory.WindowsServices", "Transcore.TagInventory.WindowsServices\Transcore.TagInventory.WindowsServices.csproj", "{F849E528-AB8C-47E2-974D-9531B11401CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE7E9EEA-D415-476D-8C1F-85159ECE3DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7E9EEA-D415-476D-8C1F-85159ECE3DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7E9EEA-D415-476D-8C1F-85159ECE3DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7E9EEA-D415-476D-8C1F-85159ECE3DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297A735F-EDFA-4D21-AA6B-412E7906FFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297A735F-EDFA-4D21-AA6B-412E7906FFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297A735F-EDFA-4D21-AA6B-412E7906FFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297A735F-EDFA-4D21-AA6B-412E7906FFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9E40E3-79EB-46F6-BC8D-BD6471B73DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9E40E3-79EB-46F6-BC8D-BD6471B73DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9E40E3-79EB-46F6-BC8D-BD6471B73DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9E40E3-79EB-46F6-BC8D-BD6471B73DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77C54B3-133E-407A-8558-9F36C261384D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77C54B3-133E-407A-8558-9F36C261384D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77C54B3-133E-407A-8558-9F36C261384D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77C54B3-133E-407A-8558-9F36C261384D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BCFE24A-FEF5-4415-9D4D-C09FB10C9EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCFE24A-FEF5-4415-9D4D-C09FB10C9EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCFE24A-FEF5-4415-9D4D-C09FB10C9EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCFE24A-FEF5-4415-9D4D-C09FB10C9EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F849E528-AB8C-47E2-974D-9531B11401CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F849E528-AB8C-47E2-974D-9531B11401CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F849E528-AB8C-47E2-974D-9531B11401CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F849E528-AB8C-47E2-974D-9531B11401CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73F20315-6E04-4932-BBBC-C25F56F48089}
+	EndGlobalSection
+EndGlobal

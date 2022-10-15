@@ -1,0 +1,287 @@
+* {
+  font-weight: 350;
+  font-family: "SegoeUI", "Segoe UI";
+  font-size: 13px;
+}
+
+.i-size {
+  font-size: 16px;
+}
+
+body {
+  padding-top: 80px 80px 90px 0px;
+  font-size: 13px;
+  background-color: #ffffff3b;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "SegoeUI", "Segoe UI";
+}
+
+ul {
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+}
+
+.shipment-actions li a span {
+  display: inline-flex;
+  border-left: 1px solid #dbd5d5;
+  padding: 2px;
+  height: 51px;
+  vertical-align: middle;
+}
+
+/* ul li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+ */
+ul li :hover {
+  /*color: #57759c;*/
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul li a:hover {
+  color: #000000;
+}
+
+.left-panel {
+  border-right: 1px solid #dee2e6;
+  padding: 80px 0px 0px 0px;
+  background-color: rgb(243, 242, 241);
+  font-size: 20px;
+  width: 200px;
+}
+
+.left-margin {
+  margin-left: 10px;
+}
+
+.left-panel ul {
+  padding: 0px;
+}
+
+.left-panel ul li {
+  padding: 0px;
+}
+
+.left-panel ul li :hover {
+  background-color: #c2c3c4;
+  color: #000000;
+}
+
+.left-panel ul li :visited {
+  background-color: #c2c3c4;
+  color: #000000;
+}
+
+.left-panel ul li a div {
+  height: 33px;
+  padding: 0px 0px 0px 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.left-panel ul li a div span {
+  /* margin-left: 10px; */
+}
+
+.left-panel ul li a div span i {
+  width: 25px;
+  font-size: 16px;
+}
+
+.left-panel-paragraph {
+  display: inline;
+  font-size: 14px;
+  white-space: normal;
+  /*   font-family: wf_segoe-ui_normal, "Segoe UI", "Segoe WP", Tahoma, Arial,
+    sans-serif; */
+  color: rgb(50, 49, 48);
+  font-weight: normal;
+  padding-top: 4px;
+}
+
+.display-inline {
+  display: block;
+  width: 150px;
+}
+
+.dynamic-content {
+  padding: 0px;
+}
+
+.top-buffer {
+  margin-top: 12px;
+}
+
+fieldset.area {
+  float: none;
+  border-color: blue;
+  /* width: 43%;*/
+}
+
+legend.spacing {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.table-header {
+  text-align: center;
+  /* background-color: #033f77;*/
+}
+
+.table-header-row {
+  color: #fff;
+  font-weight: 400;
+}
+
+.table-header th {
+  padding: 5px;
+  /*background-color: #033f77;*/
+  color: #000000;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+select {
+  width: 100%;
+  padding: 0.75rem 0.75rem;
+  border: 1px solid #ced4da;
+  color: #000000;
+  border-radius: 0.25rem;
+}
+
+button {
+  width: 100%;
+}
+
+#root {
+  /* padding: 10px 20px 40px 20px;*/
+  padding: 0px;
+}
+
+fieldset {
+  float: none;
+}
+
+#importBoxForm {
+  margin-top: 20px;
+}
+
+#importBoxForm legend {
+  float: none;
+}
+
+.content-area-tag-summary {
+  margin: 15px 40px 0px 40px;
+}
+
+.content-area-tag-summary fieldset {
+  width: 100%;
+}
+
+.component-table > tbody > tr > td {
+  /* font-weight: 400; */
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.component-table > thead > tr > th {
+  font-weight: 400;
+}
+
+.selected-left-menu {
+  background-color: rgb(255, 255, 255);
+}
+
+.selected-menu-text {
+  font-family: wf_segoe-ui_semibold, "Segoe UI Semibold", "Segoe WP Semibold",
+    "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(32, 31, 30);
+}
+
+.shipment-actions li a div {
+  display: inline-flex;
+  padding: 13px;
+  align-items: center;
+  height: 43px;
+}
+
+.paragrapgh-shipment-action-alignment {
+  margin-left: 5px;
+  padding-top: 12px;
+}
+
+.shipment-actions li :hover {
+  background-color: #c2c3c4;
+  color: #000000;
+}
+
+.select-search {
+  /*   font-size: 14px;
+  font-family: wf_segoe-ui_normal, "Segoe UI", "Segoe WP", Tahoma, Arial,
+    sans-serif;
+  color: rgb(50, 49, 48);
+  font-weight: normal; */
+}
+
+.visual-check-container {
+  /*display: inline-flex;*/
+}
+
+.scan-tag-table-visualcheck-td {
+  /* text-align: end; */
+}
+
+.scan-tag-visualcheck-select {
+  width: auto;
+}
+
+.modelPopup.p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.time-line-container {
+  padding-left: 60px;
+}
+
+li.css-ha3bif-MuiTimelineItem-root:before {
+  content: none;
+}
+
+.back-action {
+  border-width: 0px 1px 0px 0px;
+  border-color: lightgray;
+  border-style: solid;
+  height: 43px;
+}
+
+.header-containers-height {
+  height: 30px;
+}
+
+.image-disable {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  zoom: 1;
+}
+
+.timeline-item-height {
+  height: 85px;
+}
+
+div.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input {
+  padding: 0px 0px 5px;
+}
+
+input.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+  padding: 0px 0px 5px;
+}

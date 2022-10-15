@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TagInventoryDS" targetNamespace="http://tempuri.org/TagInventoryDS.xsd" xmlns:mstns="http://tempuri.org/TagInventoryDS.xsd" xmlns="http://tempuri.org/TagInventoryDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TagInventoryDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TagInventoryDS" msprop:Generator_UserDSName="TagInventoryDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PrintLabel" msprop:Generator_TableClassName="PrintLabelDataTable" msprop:Generator_TableVarName="tablePrintLabel" msprop:Generator_RowChangedName="PrintLabelRowChanged" msprop:Generator_TablePropName="PrintLabel" msprop:Generator_RowDeletingName="PrintLabelRowDeleting" msprop:Generator_RowChangingName="PrintLabelRowChanging" msprop:Generator_RowEvHandlerName="PrintLabelRowChangeEventHandler" msprop:Generator_RowDeletedName="PrintLabelRowDeleted" msprop:Generator_RowClassName="PrintLabelRow" msprop:Generator_UserTableName="PrintLabel" msprop:Generator_RowEvArgName="PrintLabelRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="From" msprop:Generator_ColumnVarNameInTable="columnFrom" msprop:Generator_ColumnPropNameInRow="From" msprop:Generator_ColumnPropNameInTable="FromColumn" msprop:Generator_UserColumnName="From" type="xs:long" minOccurs="0" />
+              <xs:element name="To" msprop:Generator_ColumnVarNameInTable="columnTo" msprop:Generator_ColumnPropNameInRow="To" msprop:Generator_ColumnPropNameInTable="ToColumn" msprop:Generator_UserColumnName="To" type="xs:long" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_UserColumnName="Qty" type="xs:int" minOccurs="0" />
+              <xs:element name="IssuedBoxID" msprop:Generator_ColumnVarNameInTable="columnIssuedBoxID" msprop:Generator_ColumnPropNameInRow="IssuedBoxID" msprop:Generator_ColumnPropNameInTable="IssuedBoxIDColumn" msprop:Generator_UserColumnName="IssuedBoxID" type="xs:long" minOccurs="0" />
+              <xs:element name="BarCode" msprop:Generator_ColumnVarNameInTable="columnBarCode" msprop:Generator_ColumnPropNameInRow="BarCode" msprop:Generator_ColumnPropNameInTable="BarCodeColumn" msprop:Generator_UserColumnName="BarCode" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
