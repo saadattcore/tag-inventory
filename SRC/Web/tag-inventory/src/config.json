@@ -1,0 +1,5 @@
+{
+  "apiEndpoint": "http://localhost:52402/api/",
+  "pageConfig": { "pageSize": 100, "pageNumber": 1 },
+  "boxCount": 10
+}
